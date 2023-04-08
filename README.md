@@ -2,7 +2,7 @@
 
 This repository contains a Python prototype of a binary video compression algorithm developed for a research project. The algorithm converts input files to binary using a custom encoding technique and generates frames for a black and white video. Black dots represent 1's and white dots represent 0's in the resulting video.
 
-###**Note**:- {Future Plan}: make the code more effective. Use of [**C++**].
+### **Note**:- {Future Plan}: make the code more effective. Use of [**C++**].
 
 ## Usage
 
