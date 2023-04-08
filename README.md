@@ -16,6 +16,22 @@ The prototype requires Python 3.6 or higher and the following dependencies:
 - OpenCV: for video encoding and decoding
 - tqdm: for progress bar visualization
 
+## Installation
+
+Follow steps below to install repo in your system
+
+*clone repository*
+```
+git clone https://github.com/Himasnhu-AT.git
+```
+
+*Install requirments*
+```
+pip install -r requirements.txt
+```
+
+*Now read Imp.md file and follow steps*
+
 ## Contributing
 
 This project is still a work in progress, and contributions and feedback are welcome. Submit an issue or pull request if you encounter any issues or have ideas for improvements.
