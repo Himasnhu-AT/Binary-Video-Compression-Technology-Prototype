@@ -3,7 +3,7 @@ import numpy as np
 from tqdm import tqdm
 
 
-file_path = "Compress.rar"
+file_path = input()
 
 with open(file_path, "rb") as f:
     binary_data = f.read()
@@ -19,7 +19,7 @@ frame_count = 0
 for byte in tqdm(binary_data):
     binary_string = bin(byte)[2:].zfill(8)
 
-    block_size = 40  
+    block_size = 1
     block_matrix = np.zeros((frame_height, frame_width), dtype=np.uint8)
     for i, bit in enumerate(binary_string):
         x = i * block_size

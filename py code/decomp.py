@@ -3,7 +3,7 @@ import numpy as np
 from tqdm import tqdm
 
 
-video_path = "output.avi"
+video_path = input()
 
 cap = cv2.VideoCapture(video_path)
 
@@ -33,7 +33,7 @@ for _ in tqdm(range(total_frames)):
 cv2.destroyAllWindows()
 cap.release()
 
-output_path = "output.rar"
+output_path = "compressor/output.jpg"
 with open(output_path, "wb") as f:
     f.write(binary_data)
 
