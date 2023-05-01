@@ -1,5 +1,7 @@
 # BUG FOUND, COMPRESSION NOT WORKING PROPERLY
 
+### currently stopped working on bugs. making lib c++ lib for computer vision. Link:. [CogniVision](https://github.com/Himasnhu-AT/CogniVision)
+
 # Binary Video Compression Prototype
 
 This repository contains a Python prototype of a binary video compression algorithm developed for a research project. The algorithm converts input files to binary using a custom encoding technique and generates frames for a black and white video. Black dots represent 1's and white dots represent 0's in the resulting video.
@@ -40,7 +42,7 @@ This project is still a work in progress, and contributions and feedback are wel
 
 ## Paper
 
-This project is based on ongoing research, and a paper detailing the algorithm and its performance is currently in progress. A link to the paper will be provided when it becomes available.
+This project is based on ongoing research, and a paper detailing the algorithm and its performance is currently in progress. Link:. [paper](https://www.linkedin.com/pulse/from-zip-rar-video-evolution-compression-methods-tech-himanshu-?trackingId=%2B9ybw%2F6XRh6L138ZlIir9A%3D%3D&lipi=urn%3Ali%3Apage%3Ad_flagship3_detail_base%3Bkh5Bf8VsTqCeiPNTo9H6lg%3D%3D)
 
 ## Note
 
